@@ -118,6 +118,7 @@ header.masthead .bg-circle-4 {
 .btn-primary {
   background-color: #306df0;
   border-color: #306df0;
+  border-radius: 0%;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #1051dd !important;
@@ -137,6 +138,12 @@ header.masthead .bg-circle-4 {
 }
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(85, 255, 161, 0.5);
+}
+
+.btn-success {
+  background-color: #01BA65;
+  border-color: #01BA65;
+  border-radius: 0%;
 }
 
 .team {
