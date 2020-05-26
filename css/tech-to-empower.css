@@ -31,7 +31,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
@@ -65,7 +65,7 @@ header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
 }
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 0.5rem;
+  font-size: 2rem;
 }
 header.masthead .bg-circle {
   z-index: 0;
