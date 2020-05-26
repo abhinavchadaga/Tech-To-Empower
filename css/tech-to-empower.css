@@ -137,3 +137,17 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(85, 255, 161, 0.5);
 }
+
+.team {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.team .team-item {
+  max-width: 18rem;
+}
+
+.team .team-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
