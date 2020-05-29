@@ -40,7 +40,9 @@ h6 {
   font-weight: 700;
 }
 .navbar-custom .navbar-brand img {
-  height: 1.5rem;
+  height: 5rem;
+  margin: 0;
+  padding: 0;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
