@@ -29,8 +29,8 @@ h6 {
 }
 
 .navbar-custom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
 .navbar-custom .navbar-brand {
@@ -40,7 +40,7 @@ h6 {
   font-weight: 700;
 }
 .navbar-custom .navbar-brand img {
-  height: 5rem;
+  height: 2rem;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
