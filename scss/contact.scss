@@ -1,0 +1,15 @@
+section#contact {
+    background-color:$gray-900;
+    form#contactForm{
+        .form-group{
+            margin-bottom: 1rem;
+            input, textarea{
+                padding: 1.25rem;
+            }
+            input.form-control{
+                height: auto;
+            }
+        }
+
+    }
+}
