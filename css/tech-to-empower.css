@@ -141,19 +141,6 @@ header.masthead .bg-circle-4 {
   box-shadow: 0 0 0 0.2rem rgba(85, 255, 161, 0.5);
 }
 
-section#contact {
-  background-color: #212529;
-}
-section#contact form#contactForm .form-group {
-  margin-bottom: 1rem;
-}
-section#contact form#contactForm .form-group input, section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
-}
-section#contact form#contactForm .form-group input.form-control {
-  height: auto;
-}
-
 .team {
   padding-top: 2rem;
   padding-bottom: 2rem;
