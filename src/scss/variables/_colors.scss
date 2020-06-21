@@ -1,0 +1,15 @@
+// Override Bootstrap color system
+
+$blue: #306df0;
+$lightBlue: #5580f8;
+$neonGreen: #55ffa1;
+$paypal: #0070BA;
+
+// Override Bootstrap default state colors
+
+$primary: $blue;
+$secondary: $neonGreen;
+
+// Override Bootstrap yiq lightness value
+
+$yiq-contrasted-threshold: 205;

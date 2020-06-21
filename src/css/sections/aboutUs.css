@@ -1,0 +1,12 @@
+.aboutUs .aboutUs-text {
+  padding: 3rem;
+}
+.aboutUs .aboutUs-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .aboutUs .aboutUs-text {
+    padding: 7rem;
+  }
+}
