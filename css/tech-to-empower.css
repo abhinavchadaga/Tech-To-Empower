@@ -141,6 +141,20 @@ header.masthead .bg-circle-4 {
   box-shadow: 0 0 0 0.2rem rgba(85, 255, 161, 0.5);
 }
 
+.btn-paypal {
+  background-color: #0070BA;
+  border-color: #0070BA;
+  color: white;
+}
+.btn-paypal:active, .btn-paypal:focus, .btn-paypal:hover {
+  background-color: #005187 !important;
+  border-color: #005187 !important;
+  color: white;
+}
+.btn-paypal:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 112, 186, 0.5);
+}
+
 .team {
   padding-top: 2rem;
   padding-bottom: 2rem;
