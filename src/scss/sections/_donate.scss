@@ -90,6 +90,7 @@
     }
 
     .close-modal {
+        z-index: 999;
         position: absolute;
         top: 1.5rem;
         right: 1.5rem;
@@ -105,7 +106,7 @@
     @media (max-width: 1199.98px){
         .close-modal{
             width: 2rem;
-            height: rem;
+            height: 2rem;
         }
     }
 }
