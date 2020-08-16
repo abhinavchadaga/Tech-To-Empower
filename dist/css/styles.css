@@ -10149,6 +10149,22 @@ header.masthead .bg-circle-4 {
     font-size: 3rem;
   }
 }
+.digitalDivide {
+  padding: 0rem;
+}
+.digitalDivide .digitalDivide-text {
+  padding: 3rem;
+}
+.digitalDivide .digitalDivide-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .digitalDivide .digitalDivide-text {
+    padding: 7rem;
+  }
+}
+
 .aboutUs .aboutUs-img {
   width: 25rem;
   height: auto;
