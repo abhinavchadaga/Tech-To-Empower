@@ -1,0 +1,46 @@
+// Styling for the masthead
+header.masthead-thankYou {
+    padding-top: 20rem;
+    padding-bottom: 6rem;
+    height: 75vh;
+    color: $white;
+    background-image: url("../assets/img/banner2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    &::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(#000, 0.65);
+    }
+    .masthead-content {
+        z-index: 1;
+        position: relative;
+        .masthead-heading {
+        font-size: 4rem;
+        }
+        .masthead-subheading {
+        font-size: 2rem;
+        }
+    }
+}
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+    .masthead-content {
+      .masthead-heading {
+        font-size: 6rem;
+      }
+      .masthead-subheading {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+

@@ -1,16 +1,24 @@
-.digitalDivide{ 
-    padding: 0rem;
-    .digitalDivide-text{
-        padding: 3rem;
-    }
-    .digitalDivide-img{
-        min-height: 30rem;
-        background-size: cover;
+.digitalDivide {
+  padding: 0rem;
+  background-color: $gray-900;
+  color: lightgrey;
+
+  .digitalDivide-text {
+    padding: 4rem;
+  }
+  
+  .digitalDivide-img {
+    background-size: cover;
+  }
+
+  @media (max-width: 1400px) {
+    h2.section-heading{
+        font-size: 2rem;
     }
 
-    @media (min-width : 768px){
-        .digitalDivide-text{
-            padding: 7rem;
-        }
+    .digitalDivide-text {
+      padding: 1.5rem;  
     }
+
+  }  
 }
